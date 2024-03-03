@@ -4,7 +4,7 @@ html{
 body {
     background-color: black;
     color: white;
-    overflow-x: hidden;
+    overflow-x:hidden;
 }
 .l9 {
     padding: 0.5em 2em; 
@@ -157,7 +157,72 @@ body {
   width: 300px;
 }
 @media only screen and (max-width:767px){
-  
+  body{
+    overflow-x:hidden;
+  }
+  .l9{
+    height:10%;
+    width:25%;
+    font-size: 0.8rem;
+    position:absolute;
+    left:auto;
+    top:20px;
+  }
+  .qw{
+    height:80px;
+    width:130px;
+  }
+  .ab{
+    position:relative;
+    left:auto;
+    top:auto;
+    text-align: center;
+    font-size:2.5rem;
+  }
+  .btr{
+    display:none;
+  }
+  #bi{
+    position:relative;
+    left:auto;
+    top:auto;
+    text-align: center;
+    font-size:1.5rem;
+  }
+  .r{
+    height:unset;
+    width:unset;
+    position:relative;
+    left:auto;
+    top:auto;
+    text-align: center;
+    font-size:0.5rem;
+  }
+  .s{
+    position:relative;
+    left:auto;
+    top:auto;
+    text-align: center;
+    font-size:1.5rem;
+  }
+  #buttons {
+    padding: 10px;
+    overflow-x:hidden /* Adjusted padding for smaller screens */
+}
 
-
+#buttons button {
+  width: calc(45% - 10px); /* Adjusted width for two buttons in one line with margin */
+  height: 100px; /* Adjusted height for smaller screens */
+  font-size: 1.2rem; /* Adjusted font size for smaller screens */
+  margin: 5px; /* Reduced margin between buttons for smaller screens */
+  display: inline-block; /* Display as inline-block on smaller screens */
+  vertical-align: top; /* Adjusted vertical alignment */
+}
+.ss{
+  position:relative;
+  left:auto;
+  top:auto;
+  text-align: center;
+  font-size:1.3rem;
+}
 }
